@@ -2,9 +2,8 @@ module.exports = {
   branchPrefix: 'renovate/',
   onboarding: true,
   platform: 'github',
-  dryRun: 'full',
+  dryRun: null,
   repositories: [
     'RevenueCat/renovate',
-    'RevenueCat/purchases-flutter',
   ],
 };
