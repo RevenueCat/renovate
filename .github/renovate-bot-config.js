@@ -5,5 +5,6 @@ module.exports = {
   dryRun: null,
   repositories: [
     'RevenueCat/renovate',
+    'RevenueCat/purchases-flutter',
   ],
 };
