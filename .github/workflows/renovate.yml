@@ -16,4 +16,4 @@ jobs:
           configurationFile: .github/renovate-bot-config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
-          LOG_LEVEL: debug
+          LOG_LEVEL: info
