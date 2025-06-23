@@ -7,10 +7,4 @@ module.exports = {
     'RevenueCat/renovate',
     'RevenueCat/purchases-flutter',
   ],
-  packageRules: [
-    {
-      matchPackageNames: ['*'],
-      enabledManagers: ['github-actions'],
-    },
-  ],
 };
