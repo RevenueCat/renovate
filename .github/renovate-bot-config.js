@@ -1,11 +1,14 @@
 module.exports = {
   branchPrefix: 'renovate/',
-  onboarding: true,
+  onboarding: false,
   platform: 'github',
   dryRun: 'full',
   repositories: [
+    'RevenueCat/renovate',
     'RevenueCat/purchases-flutter',
   ],
+  // Move these to a preset.
+  dependencyDashboard: true,
   packageRules: [
     // Disable everything except updates to Gradle itself.
     {
