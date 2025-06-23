@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "onboarding": true,
+  "forkProcessing": "disabled",
+  "dependencyDashboard": true,
+  "reviewers": ["team:coresdk"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "enabledManagers": ["gradle-wrapper"]
+    },
+    {
+      "matchPackageNames": ["com.android.tools.build:gradle"],
+      "enabledManagers": ["gradle"]
+    }
+  ]
+}
