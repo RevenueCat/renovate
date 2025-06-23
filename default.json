@@ -3,6 +3,7 @@
   "forkProcessing": "disabled",
   "dependencyDashboard": true,
   "reviewers": ["team:coresdk"],
+  "labels": ["pr:dependencies"],
   "packageRules": [
     {
       "matchPackageNames": ["*"],
