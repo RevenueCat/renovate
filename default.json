@@ -11,12 +11,14 @@
     },
     {
       "matchManagers": ["gradle-wrapper"],
-      "enabled": true
+      "enabled": true,
+      "groupName": "build-dependencies"
     },
     {
       "matchPackageNames": ["com.android.tools.build:gradle"],
       "matchManagers": ["gradle"],
-      "enabled": true
+      "enabled": true,
+      "groupName": "build-dependencies"
     }
   ]
 }
