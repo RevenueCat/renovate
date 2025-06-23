@@ -7,11 +7,16 @@
   "packageRules": [
     {
       "matchPackageNames": ["*"],
-      "enabledManagers": ["gradle-wrapper"]
+      "enabled": false
+    },
+    {
+      "matchManagers": ["gradle-wrapper"],
+      "enabled": true
     },
     {
       "matchPackageNames": ["com.android.tools.build:gradle"],
-      "enabledManagers": ["gradle"]
+      "matchManagers": ["gradle"],
+      "enabled": true
     }
   ]
 }
