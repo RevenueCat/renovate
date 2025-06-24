@@ -15,7 +15,12 @@
       "groupName": "build-dependencies"
     },
     {
-      "matchPackageNames": ["com.android.tools.build:gradle"],
+      "matchPackageNames": [
+        "com.android.tools.build:gradle",
+        "com.android.application",
+        "com.android.library",
+        "com.android.lint"
+      ],
       "matchManagers": ["gradle"],
       "enabled": true,
       "groupName": "build-dependencies"
