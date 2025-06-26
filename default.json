@@ -4,6 +4,7 @@
   "dependencyDashboard": false,
   "reviewers": ["team:coresdk"],
   "labels": ["pr:dependencies"],
+  "commitMessagePrefix": "[RENOVATE]",
   "packageRules": [
     {
       "matchPackageNames": ["*"],
