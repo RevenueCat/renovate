@@ -12,5 +12,6 @@ module.exports = {
     'RevenueCat/purchases-kmp',
     'RevenueCat/react-native-purchases',
     'RevenueCat/renovate',
+    'RevenueCat/sdks-circleci-orb',
   ],
 };
