@@ -30,6 +30,13 @@
       "matchManagers": ["gradle"],
       "enabled": true,
       "groupName": "build-dependencies"
+    },
+    {
+      "matchManagers": ["circleci"],
+      "matchDatasources": ["orb"],
+      "matchPackageNames": ["revenuecat/sdks-common-config"],
+      "enabled": true,
+      "groupName": "circleci-orb"
     }
   ]
 }
