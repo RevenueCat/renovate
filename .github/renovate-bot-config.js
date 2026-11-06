@@ -5,6 +5,7 @@ module.exports = {
   dryRun: null,
   repositories: [
     'RevenueCat/cordova-plugin-purchases',
+    'RevenueCat/mafdet-cli',
     'RevenueCat/purchases-android',
     'RevenueCat/purchases-capacitor',
     'RevenueCat/purchases-flutter',
